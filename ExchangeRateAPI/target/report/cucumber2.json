@@ -1,0 +1,123 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Send a request to get rates of a specific date with valid data TC01",
+        "description": "",
+        "id": "testing-the-exchangerateapi;send-a-request-to-get-rates-of-a-specific-date-with-valid-data-tc01",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "Construct the url by adding a specific date TC01",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "Hit the API and capture the response TC01",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "Verify the response TC01",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Send a request to get rates of a specific date with invalid data TC02",
+        "description": "",
+        "id": "testing-the-exchangerateapi;send-a-request-to-get-rates-of-a-specific-date-with-invalid-data-tc02",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "Construct the url by adding a invalid date TC02",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "Hit the API and capture the response TC02",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "Verify that error comes in the response TC02",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Send a request for latest date with symbols TC03",
+        "description": "",
+        "id": "testing-the-exchangerateapi;send-a-request-for-latest-date-with-symbols-tc03",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "Construct the url for latest date TC03",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "Hit the API and capture the response TC03",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "Verify that response gets generated TC03",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing the ExchangeRateAPI",
+    "description": "",
+    "id": "testing-the-exchangerateapi",
+    "keyword": "Feature",
+    "uri": "src/main/resources/features/ExchangeRate.feature"
+  }
+]

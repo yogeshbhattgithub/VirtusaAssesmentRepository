@@ -1,0 +1,245 @@
+<html>
+<head>
+<title>TestNG:  Exchange Rate API Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Exchange Rate API Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 23 10:31:47 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>4 seconds (4410 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yogesh.assesment.ExchangeRateAPI.TestRunner.scenario()'><b>scenario</b><br>Test class: com.yogesh.assesment.ExchangeRateAPI.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Send a request to get rates of a specific date with valid data TC01", "Testing the ExchangeRateAPI"<br/>
+<a href="#Output-1823409783" onClick='toggleBox("Output-1823409783", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1823409783" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1823409783">
+<div "result">Construct the url by adding a specific date TC01 (PASSED : 0s)</div><br/>
+<div "result">Hit the API and capture the response TC01 (PASSED : 0s)</div><br/>
+<div "result">Verify the response TC01 (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3</td></tr>
+<tr>
+<td title='com.yogesh.assesment.ExchangeRateAPI.TestRunner.scenario()'><b>scenario</b><br>Test class: com.yogesh.assesment.ExchangeRateAPI.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Send a request to get rates of a specific date with invalid data TC02", "Testing the ExchangeRateAPI"<br/>
+<a href="#Output-962287291" onClick='toggleBox("Output-962287291", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-962287291" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-962287291">
+<div "result">Construct the url by adding a invalid date TC02 (PASSED : 0s)</div><br/>
+<div "result">Hit the API and capture the response TC02 (PASSED : 0s)</div><br/>
+<div "result">Verify that error comes in the response TC02 (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3</td></tr>
+<tr>
+<td title='com.yogesh.assesment.ExchangeRateAPI.TestRunner.scenario()'><b>scenario</b><br>Test class: com.yogesh.assesment.ExchangeRateAPI.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Send a request for latest date with symbols TC03", "Testing the ExchangeRateAPI"<br/>
+<a href="#Output-1447353473" onClick='toggleBox("Output-1447353473", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1447353473" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1447353473">
+<div "result">Construct the url for latest date TC03 (PASSED : 0s)</div><br/>
+<div "result">Hit the API and capture the response TC03 (PASSED : 0s)</div><br/>
+<div "result">Verify that response gets generated TC03 (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3</td></tr>
+<tr>
+<td title='com.yogesh.assesment.ExchangeRateAPI.TestRunner.scenario()'><b>scenario</b><br>Test class: com.yogesh.assesment.ExchangeRateAPI.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Send a invalid request for latest date with symbols TC04", "Testing the ExchangeRateAPI"<br/>
+<a href="#Output-1732663543" onClick='toggleBox("Output-1732663543", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1732663543" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1732663543">
+<div "result">Construct the url for latest date TC04 (PASSED : 0s)</div><br/>
+<div "result">Hit the API and capture the response TC04 (PASSED : 0s)</div><br/>
+<div "result">Verify that error gets generated TC04 (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3</td></tr>
+<tr>
+<td title='com.yogesh.assesment.ExchangeRateAPI.TestRunner.scenario()'><b>scenario</b><br>Test class: com.yogesh.assesment.ExchangeRateAPI.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Send a valid request with symbols and base TC05", "Testing the ExchangeRateAPI"<br/>
+<a href="#Output-172699023" onClick='toggleBox("Output-172699023", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-172699023" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-172699023">
+<div "result">Construct the url with valid symbol and base TC05 (PASSED : 0s)</div><br/>
+<div "result">Hit the API and capture the response TC05 (PASSED : 0s)</div><br/>
+<div "result">Verify that response gets generated TC05 (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3</td></tr>
+<tr>
+<td title='com.yogesh.assesment.ExchangeRateAPI.TestRunner.scenario()'><b>scenario</b><br>Test class: com.yogesh.assesment.ExchangeRateAPI.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Send a request for latest data without symbols and base TC06", "Testing the ExchangeRateAPI"<br/>
+<a href="#Output-1527007086" onClick='toggleBox("Output-1527007086", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1527007086" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1527007086">
+<div "result">Construct the url TC06 (PASSED : 0s)</div><br/>
+<div "result">Hit the API and capture the response TC06 (PASSED : 0s)</div><br/>
+<div "result">Verify that response gets generated TC06 (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3</td></tr>
+<tr>
+<td title='com.yogesh.assesment.ExchangeRateAPI.TestRunner.scenario()'><b>scenario</b><br>Test class: com.yogesh.assesment.ExchangeRateAPI.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Send a request for specific date with symbol TC07", "Testing the ExchangeRateAPI"<br/>
+<a href="#Output-1662592920" onClick='toggleBox("Output-1662592920", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1662592920" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1662592920">
+<div "result">Construct the url TC07 (PASSED : 0s)</div><br/>
+<div "result">Hit the API and capture the response TC07 (PASSED : 0s)</div><br/>
+<div "result">Verify that response gets generated TC07 (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3</td></tr>
+<tr>
+<td title='com.yogesh.assesment.ExchangeRateAPI.TestRunner.scenario()'><b>scenario</b><br>Test class: com.yogesh.assesment.ExchangeRateAPI.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Send a request for specific date using base TC08", "Testing the ExchangeRateAPI"<br/>
+<a href="#Output-1667534569" onClick='toggleBox("Output-1667534569", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1667534569" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1667534569">
+<div "result">Construct the url TC08 (PASSED : 0s)</div><br/>
+<div "result">Hit the API and capture the response TC08 (PASSED : 0s)</div><br/>
+<div "result">Verify that response gets generated TC08 (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3</td></tr>
+<tr>
+<td title='com.yogesh.assesment.ExchangeRateAPI.TestRunner.scenario()'><b>scenario</b><br>Test class: com.yogesh.assesment.ExchangeRateAPI.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Send a request for specific date using base and symbols TC09", "Testing the ExchangeRateAPI"<br/>
+<a href="#Output-747870628" onClick='toggleBox("Output-747870628", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-747870628" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-747870628">
+<div "result">Construct the url TC09 (PASSED : 0s)</div><br/>
+<div "result">Hit the API and capture the response TC09 (PASSED : 0s)</div><br/>
+<div "result">Verify that response gets generated TC09 (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3</td></tr>
+<tr>
+<td title='com.yogesh.assesment.ExchangeRateAPI.TestRunner.scenario()'><b>scenario</b><br>Test class: com.yogesh.assesment.ExchangeRateAPI.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Send a request with invalid base TC10", "Testing the ExchangeRateAPI"<br/>
+<a href="#Output-1076966140" onClick='toggleBox("Output-1076966140", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1076966140" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1076966140">
+<div "result">Construct the url TC10 (PASSED : 0s)</div><br/>
+<div "result">Hit the API and capture the response TC10 (PASSED : 0s)</div><br/>
+<div "result">Verify that error is generated TC10 (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3</td></tr>
+<tr>
+<td title='com.yogesh.assesment.ExchangeRateAPI.TestRunner.scenario()'><b>scenario</b><br>Test class: com.yogesh.assesment.ExchangeRateAPI.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Send a request with incomplete API TC11", "Testing the ExchangeRateAPI"<br/>
+<a href="#Output-1468343491" onClick='toggleBox("Output-1468343491", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1468343491" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1468343491">
+<div "result">Hit the API base url and capture response TC11 (PASSED : 0s)</div><br/>
+<div "result">Verify that error generated TC11 (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3</td></tr>
+<tr>
+<td title='com.yogesh.assesment.ExchangeRateAPI.TestRunner.scenario()'><b>scenario</b><br>Test class: com.yogesh.assesment.ExchangeRateAPI.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check API is available TC12", "Testing the ExchangeRateAPI"<br/>
+<a href="#Output-197491520" onClick='toggleBox("Output-197491520", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-197491520" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-197491520">
+<div "result">Hit the API and capture the response TC12 (PASSED : 0s)</div><br/>
+<div "result">Check if the api is available TC12 (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">Construct the url by adding a specific date TC01 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Hit the API and capture the response TC01 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify the response TC01 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Construct the url by adding a invalid date TC02 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Hit the API and capture the response TC02 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify that error comes in the response TC02 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Construct the url for latest date TC03 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Hit the API and capture the response TC03 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify that response gets generated TC03 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Construct the url for latest date TC04 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Hit the API and capture the response TC04 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify that error gets generated TC04 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Construct the url with valid symbol and base TC05 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Hit the API and capture the response TC05 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify that response gets generated TC05 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Construct the url TC06 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Hit the API and capture the response TC06 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify that response gets generated TC06 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Construct the url TC07 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Hit the API and capture the response TC07 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify that response gets generated TC07 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Construct the url TC08 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Hit the API and capture the response TC08 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify that response gets generated TC08 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Construct the url TC09 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Hit the API and capture the response TC09 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify that response gets generated TC09 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Construct the url TC10 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Hit the API and capture the response TC10 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify that error is generated TC10 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Hit the API base url and capture response TC11 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify that error generated TC11 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Hit the API and capture the response TC12 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Check if the api is available TC12 (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4410" started-at="2020-12-23T05:01:47Z" finished-at="2020-12-23T05:01:51Z">
+    <groups>
+      <group name="cucumber scenarios">
+        <method signature="TestRunner.scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3]" name="scenario" class="com.yogesh.assesment.ExchangeRateAPI.TestRunner"/>
+      </group> <!-- cucumber scenarios -->
+    </groups>
+    <test name="Exchange Rate API Test" duration-ms="4410" started-at="2020-12-23T05:01:47Z" finished-at="2020-12-23T05:01:51Z">
+      <class name="com.yogesh.assesment.ExchangeRateAPI.TestRunner">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3]" name="beforeClass" is-config="true" duration-ms="128" started-at="2020-12-23T10:31:47Z" finished-at="2020-12-23T10:31:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3]" name="scenario" duration-ms="902" started-at="2020-12-23T10:31:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-23T10:31:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send a request to get rates of a specific date with valid data TC01"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the ExchangeRateAPI"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Construct the url by adding a specific date TC01 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Hit the API and capture the response TC01 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify the response TC01 (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3]" name="scenario" duration-ms="481" started-at="2020-12-23T10:31:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-23T10:31:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send a request to get rates of a specific date with invalid data TC02"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the ExchangeRateAPI"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Construct the url by adding a invalid date TC02 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Hit the API and capture the response TC02 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify that error comes in the response TC02 (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3]" name="scenario" duration-ms="220" started-at="2020-12-23T10:31:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-23T10:31:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send a request for latest date with symbols TC03"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the ExchangeRateAPI"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Construct the url for latest date TC03 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Hit the API and capture the response TC03 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify that response gets generated TC03 (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3]" name="scenario" duration-ms="459" started-at="2020-12-23T10:31:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-23T10:31:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send a invalid request for latest date with symbols TC04"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the ExchangeRateAPI"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Construct the url for latest date TC04 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Hit the API and capture the response TC04 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify that error gets generated TC04 (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3]" name="scenario" duration-ms="228" started-at="2020-12-23T10:31:49Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-23T10:31:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send a valid request with symbols and base TC05"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the ExchangeRateAPI"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Construct the url with valid symbol and base TC05 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Hit the API and capture the response TC05 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify that response gets generated TC05 (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3]" name="scenario" duration-ms="230" started-at="2020-12-23T10:31:49Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-23T10:31:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send a request for latest data without symbols and base TC06"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the ExchangeRateAPI"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Construct the url TC06 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Hit the API and capture the response TC06 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify that response gets generated TC06 (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3]" name="scenario" duration-ms="192" started-at="2020-12-23T10:31:49Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-23T10:31:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send a request for specific date with symbol TC07"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the ExchangeRateAPI"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Construct the url TC07 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Hit the API and capture the response TC07 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify that response gets generated TC07 (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3]" name="scenario" duration-ms="219" started-at="2020-12-23T10:31:49Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-23T10:31:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send a request for specific date using base TC08"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the ExchangeRateAPI"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Construct the url TC08 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Hit the API and capture the response TC08 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify that response gets generated TC08 (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3]" name="scenario" duration-ms="191" started-at="2020-12-23T10:31:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-23T10:31:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send a request for specific date using base and symbols TC09"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the ExchangeRateAPI"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Construct the url TC09 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Hit the API and capture the response TC09 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify that response gets generated TC09 (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3]" name="scenario" duration-ms="468" started-at="2020-12-23T10:31:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-23T10:31:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send a request with invalid base TC10"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the ExchangeRateAPI"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Construct the url TC10 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Hit the API and capture the response TC10 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify that error is generated TC10 (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3]" name="scenario" duration-ms="431" started-at="2020-12-23T10:31:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-23T10:31:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send a request with incomplete API TC11"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the ExchangeRateAPI"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Hit the API base url and capture response TC11 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify that error generated TC11 (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3]" name="scenario" duration-ms="213" started-at="2020-12-23T10:31:51Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-23T10:31:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check API is available TC12"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the ExchangeRateAPI"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Hit the API and capture the response TC12 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Check if the api is available TC12 (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yogesh.assesment.ExchangeRateAPI.TestRunner@578486a3]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-12-23T10:31:51Z" finished-at="2020-12-23T10:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.yogesh.assesment.ExchangeRateAPI.TestRunner -->
+    </test> <!-- Exchange Rate API Test -->
+  </suite> <!-- Suite -->
+</testng-results>

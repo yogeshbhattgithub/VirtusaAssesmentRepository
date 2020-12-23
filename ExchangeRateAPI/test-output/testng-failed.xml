@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Exchange Rate API Test(failed)">
+    <classes>
+      <class name="com.yogesh.assesment.ExchangeRateAPI.TestRunner">
+        <methods>
+          <include name="tearDown"/>
+          <include name="scenario" invocation-numbers="1 3 9 10"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.yogesh.assesment.ExchangeRateAPI.TestRunner -->
+    </classes>
+  </test> <!-- Exchange Rate API Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
